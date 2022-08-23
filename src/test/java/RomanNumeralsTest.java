@@ -18,6 +18,8 @@ class RomanNumeralsTest {
 		assertEquals("III", romanNumerals.convert(3));
 		assertEquals("V", romanNumerals.convert(5));
 		assertEquals("VI", romanNumerals.convert(6));
+		assertEquals("VII", romanNumerals.convert(7));
+		assertEquals("X", romanNumerals.convert(10));
 	}
 
 }
