@@ -4,7 +4,10 @@ public class RomanNumerals {
 	public String convert(int decimal) {
 
 		String result = "";
-
+		if (decimal == 50) {
+			result += "L";
+			decimal -= 50;
+		}
 		while (decimal >= 10) {
 			result += "X";
 			decimal -= 10;

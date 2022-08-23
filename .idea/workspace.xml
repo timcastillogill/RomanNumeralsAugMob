@@ -31,7 +31,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/TimTurvey/Projects/codurance-academy/prep/roman-numerals-kata/RomanNumeralsAugMob&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsTest">
+  <component name="RunManager" selected="JUnit.RomanNumeralsTest (1)">
     <configuration name="RomanNumeralsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumeralsMobAug" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,8 +52,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumeralsTest" />
         <item itemvalue="JUnit.RomanNumeralsTest (1)" />
+        <item itemvalue="JUnit.RomanNumeralsTest" />
       </list>
     </recent_temporary>
   </component>
