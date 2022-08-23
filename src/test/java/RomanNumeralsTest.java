@@ -9,6 +9,7 @@ class RomanNumeralsTest {
 	given_decimal_returns_roman_numeral_string() {
 		assertEquals("I", new RomanNumerals().convert(1));
 		assertEquals("II", new RomanNumerals().convert(2));
+		assertEquals("III", new RomanNumerals().convert(3));
 	}
 
 }
