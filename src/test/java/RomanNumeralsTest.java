@@ -19,12 +19,16 @@ class RomanNumeralsTest {
 		assertEquals("V", romanNumerals.convert(5));
 		assertEquals("VI", romanNumerals.convert(6));
 		assertEquals("VII", romanNumerals.convert(7));
+		assertEquals("IX", romanNumerals.convert(9));
 		assertEquals("X", romanNumerals.convert(10));
 		assertEquals("XX", romanNumerals.convert(20));
 		assertEquals("L", romanNumerals.convert(50));
 		assertEquals("CC", romanNumerals.convert(200));
 		assertEquals("IV", romanNumerals.convert(4));
 		assertEquals("XL", romanNumerals.convert(40));
+		assertEquals("M", romanNumerals.convert(1000));
+		assertEquals("D", romanNumerals.convert(500));
+
 	}
 
 }
