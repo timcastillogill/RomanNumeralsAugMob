@@ -7,8 +7,8 @@ public class RomanNumerals {
 	public String convert(int decimal) {
 
 		String result = "";
-		int[] decimalValues = { 100, 50, 10, 5, 4 };
-		String[] romanNumerals = { "C", "L", "X", "V", "IV" };
+		int[] decimalValues = { 1000, 500, 100, 50, 40, 10, 9, 5, 4 };
+		String[] romanNumerals = { "M", "D", "C", "L", "XL", "X", "IX", "V", "IV" };
 
 
 		for (int i = 0; i < decimalValues.length; i ++) {
