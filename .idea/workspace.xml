@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="658c0972-910f-4fa0-84ef-6573b1f41de5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="658c0972-910f-4fa0-84ef-6573b1f41de5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +30,11 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.RomanNumeralsTest (1)">
-    <configuration name="RomanNumeralsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RomanNumeralsMobAug" />
+    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumeralsAugMob" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />

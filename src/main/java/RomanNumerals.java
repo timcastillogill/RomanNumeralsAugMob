@@ -7,27 +7,15 @@ public class RomanNumerals {
 	public String convert(int decimal) {
 
 		String result = "";
-		int[] decimalValues = { 100 };
-		String[] romanNumerals = { "C" };
+		int[] decimalValues = { 100, 50, 10, 5 };
+		String[] romanNumerals = { "C", "L", "X", "V" };
 
-		while (decimal >= decimalValues[0]) {
-			result += romanNumerals[0];
-			decimal -= decimalValues[0];
-		}
 
-		while (decimal >= 50) {
-			result += "L";
-			decimal -= 50;
-		}
-
-		while (decimal >= 10) {
-			result += "X";
-			decimal -= 10;
-		}
-
-		while (decimal >= 5) {
-			result += "V";
-			decimal -= 5;
+		for (int i = 0; i < decimalValues.length; i ++) {
+			while (decimal >= decimalValues[i]) {
+				result += romanNumerals[i];
+				decimal -= decimalValues[i];
+			}
 		}
 
 		result += "I".repeat(decimal);
