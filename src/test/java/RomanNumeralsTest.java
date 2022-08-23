@@ -28,7 +28,9 @@ class RomanNumeralsTest {
 		assertEquals("XL", romanNumerals.convert(40));
 		assertEquals("M", romanNumerals.convert(1000));
 		assertEquals("D", romanNumerals.convert(500));
-
+		assertEquals("XC", romanNumerals.convert(90));
+		assertEquals("CD", romanNumerals.convert(400));
+		assertEquals("CM", romanNumerals.convert(900));
 	}
 
 }
