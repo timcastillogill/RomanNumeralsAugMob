@@ -7,10 +7,12 @@ public class RomanNumerals {
 	public String convert(int decimal) {
 
 		String result = "";
+		int[] decimalValues = { 100 };
+		String[] romanNumerals = { "C" };
 
-		while (decimal >= 100) {
-			result += "C";
-			decimal -= 100;
+		while (decimal >= decimalValues[0]) {
+			result += romanNumerals[0];
+			decimal -= decimalValues[0];
 		}
 
 		while (decimal >= 50) {
