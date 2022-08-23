@@ -21,6 +21,7 @@ class RomanNumeralsTest {
 		assertEquals("VII", romanNumerals.convert(7));
 		assertEquals("X", romanNumerals.convert(10));
 		assertEquals("XX", romanNumerals.convert(20));
+		assertEquals("L", romanNumerals.convert(50));
 	}
 
 }
