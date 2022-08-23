@@ -2,13 +2,14 @@ public class RomanNumerals {
 
 
 	public String convert(int decimal) {
-		if (decimal == 5) {
-			return "V";
+		String result = "";
+		if (decimal >= 5) {
+			result += "V";
+			decimal -= 5;
 		}
 
-		if (decimal == 6) {
-			return "VI";
-		}
-		return "I".repeat(decimal);
+		result += "I".repeat(decimal);
+
+		return result;
 	}
 }
