@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="658c0972-910f-4fa0-84ef-6573b1f41de5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumerals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="658c0972-910f-4fa0-84ef-6573b1f41de5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +29,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/TimTurvey/Projects/codurance-academy/prep/roman-numerals-kata/RomanNumeralsAugMob&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsTest (1)">
+  <component name="RunManager" selected="JUnit.RomanNumeralsTest">
     <configuration name="RomanNumeralsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumeralsMobAug" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,8 +50,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumeralsTest (1)" />
         <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest (1)" />
       </list>
     </recent_temporary>
   </component>
