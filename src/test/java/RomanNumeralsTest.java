@@ -1,7 +1,13 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 class RomanNumeralsTest {
 
@@ -10,27 +16,34 @@ class RomanNumeralsTest {
 	void setup() {
 		romanNumerals = new RomanNumerals();
 	}
-	@Test
-	public void
-	given_decimal_returns_roman_numeral_string() {
-		assertEquals("I", romanNumerals.convert(1));
-		assertEquals("II", romanNumerals.convert(2));
-		assertEquals("III", romanNumerals.convert(3));
-		assertEquals("V", romanNumerals.convert(5));
-		assertEquals("VI", romanNumerals.convert(6));
-		assertEquals("VII", romanNumerals.convert(7));
-		assertEquals("IX", romanNumerals.convert(9));
-		assertEquals("X", romanNumerals.convert(10));
-		assertEquals("XX", romanNumerals.convert(20));
-		assertEquals("L", romanNumerals.convert(50));
-		assertEquals("CC", romanNumerals.convert(200));
-		assertEquals("IV", romanNumerals.convert(4));
-		assertEquals("XL", romanNumerals.convert(40));
-		assertEquals("M", romanNumerals.convert(1000));
-		assertEquals("D", romanNumerals.convert(500));
-		assertEquals("XC", romanNumerals.convert(90));
-		assertEquals("CD", romanNumerals.convert(400));
-		assertEquals("CM", romanNumerals.convert(900));
+	@ParameterizedTest
+	@MethodSource("givenNumberConvertsToRoman")
+	void romanNumber(String roman, int number) {
+		String result = romanNumerals.convert(number);
+
+		assertEquals(roman, result);
+	}
+	private static Stream<Arguments> givenNumberConvertsToRoman() {
+		return Stream.of(
+				arguments("I", 1),
+				arguments("II", 2),
+				arguments("III", 3),
+				arguments("V", 5),
+				arguments("VI", 6),
+				arguments("VII", 7),
+				arguments("IX", 9),
+				arguments("X", 10),
+				arguments("XX", 20),
+				arguments("L", 50),
+				arguments("CC", 200),
+				arguments("IV", 4),
+				arguments("XL", 40),
+				arguments("M", 1000),
+				arguments("D", 500),
+				arguments("XC", 90),
+				arguments("CD", 400),
+				arguments("CM", 900)
+		);
 	}
 
 }
